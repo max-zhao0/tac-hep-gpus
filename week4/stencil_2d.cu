@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <algorithm>
+#include <iostream>
 
 
 using namespace std;
@@ -12,33 +13,37 @@ using namespace std;
 __global__ void stencil_2d(int *in, int *out) {
 
 	__shared__ int temp[BLOCK_SIZE + 2 * RADIUS][BLOCK_SIZE + 2 * RADIUS];
-	int gindex_x = FIXME
-	int lindex_x = FIXME
-	int gindex_y = FIXME
-	int lindex_y = FIXME
+	int gindex_x = threadIdx.x + blockDim.x * blockIdx.x;
+	int lindex_x = threadIdx.x + RADIUS;
+	int gindex_y = threadIdx.y + blockDim.y * blockIdx.y;
+	int lindex_y = threadIdx.y + RADIUS;
 
 	// Read input elements into shared memory
 	int size = N + 2 * RADIUS;
-	temp[lindex_x][lindex_y] = FIXME
+	temp[lindex_x][lindex_y] = in[gindex_x + gindex_y * size];
 
 	if (threadIdx.x < RADIUS) {
-		FIXME
+		temp[lindex_x - RADIUS][lindex_y] = in[gindex_x - RADIUS + gindex_y * size];
+		temp[lindex_x + BLOCK_SIZE][lindex_y] = in[gindex_x + BLOCK_SIZE + gindex_y * size];
 	}
 
 	if (threadIdx.y < RADIUS ) {
-		FIXME
+		temp[lindex_x][lindex_y - RADIUS] = in[gindex_x + (gindex_y - RADIUS) * size];
+		temp[lindex_x][lindex_y + BLOCK_SIZE] = in[gindex_x + (gindex_y + BLOCK_SIZE) * size];
 	}
-
+	__syncthreads();
 
 	// Apply the stencil
 	int result = 0;
 	for (int offset = -RADIUS; offset <= RADIUS; offset++){
-		FIXME
+		result += temp[lindex_x + offset][lindex_y];
+		if (offset != 0) {
+			result += temp[lindex_x][lindex_y + offset];
+		}
 	}
 
-	FIXME
 	// Store the result
-	out[gindex_y+size*gindex_x] = result;
+	out[gindex_x+size*gindex_y] = result;
 }
 
 
@@ -46,6 +51,20 @@ void fill_ints(int *x, int n) {
    // Store the result
    // https://en.cppreference.com/w/cpp/algorithm/fill_n
    fill_n(x, n, 1);
+}
+
+template <typename T>
+void print_matrix(const T* mat, int width, int to_print_x=6, int to_print_y=6) {
+    std::cout << "[" << std::endl;
+    for (int i = 0; i < to_print_x; i++) {
+        std::cout << "\t[";
+        for (int j = 0; j < to_print_y; j++) {
+            std::cout << mat[i * width + j] << ", ";
+        }
+        std::cout << "... ]," << std::endl;
+    }
+    std::cout << "\t..." << std::endl;
+    std::cout << "]" << std::endl;
 }
 
 
@@ -61,11 +80,11 @@ int main(void) {
 
 	// Alloc space for device copies
 	cudaMalloc((void **)&d_in, size);
-	FIXME
+	cudaMalloc((void **)&d_out, size);
 
 	// Copy to device
 	cudaMemcpy(d_in, in, size, cudaMemcpyHostToDevice);
-	FIXME
+	cudaMemcpy(d_out, out, size, cudaMemcpyHostToDevice);
 
 	// Launch stencil_2d() kernel on GPU
 	int gridSize = (N + BLOCK_SIZE-1)/BLOCK_SIZE;
@@ -74,9 +93,10 @@ int main(void) {
 	// Launch the kernel 
 	// Properly set memory address for first element on which the stencil will be applied
 	stencil_2d<<<grid,block>>>(d_in + RADIUS*(N + 2*RADIUS) + RADIUS , d_out + RADIUS*(N + 2*RADIUS) + RADIUS);
+	cudaDeviceSynchronize();
 
 	// Copy result back to host
-	FIXME
+	cudaMemcpy(out, d_out, size, cudaMemcpyDeviceToHost);
 
 	// Error Checking
 	for (int i = 0; i < N + 2 * RADIUS; ++i) {
