@@ -1,0 +1,100 @@
+[[    1,     1,     1,     1,     1,     1, ... ],
+ [    1,     1,     1,     1,     1,     1, ... ],
+ [    1,     1,     1,     1,     1,     1, ... ],
+ [    1,     1,     1,     1,     1,     1, ... ],
+ [    1,     1,     1,     1,     1,     1, ... ],
+ [    1,     1,     1,     1,     1,     1, ... ],
+ ... ]
+[[    5,     6,     7,     7,     7,     7, ... ],
+ [    6,     7,     8,     8,     8,     8, ... ],
+ [    7,     8,     9,     9,     9,     9, ... ],
+ [    7,     8,     9,     9,     9,     9, ... ],
+ [    7,     8,     9,     9,     9,     9, ... ],
+ [    7,     8,     9,     9,     9,     9, ... ],
+ ... ]
+[[25014, 28592, 32170, 32170, 32170, 32170, ... ],
+ [28592, 32682, 36772, 36772, 36772, 36772, ... ],
+ [32170, 36772, 41374, 41374, 41374, 41374, ... ],
+ [32170, 36772, 41374, 41374, 41374, 41374, ... ],
+ [32170, 36772, 41374, 41374, 41374, 41374, ... ],
+ [32170, 36772, 41374, 41374, 41374, 41374, ... ],
+ ... ]
+Success
+Collecting data...
+Generating '/tmp/zhaom/nsys-report-b94d.qdstrm'
+[1/8] [0%                          ] optimized_cuda.nsys-rep[1/8] [0%                          ] optimized_cuda.nsys-rep[1/8] [10%                         ] optimized_cuda.nsys-rep[1/8] [=====29%                    ] optimized_cuda.nsys-rep[1/8] [==========48%               ] optimized_cuda.nsys-rep[1/8] [===========50%              ] optimized_cuda.nsys-rep[1/8] [===========51%              ] optimized_cuda.nsys-rep[1/8] [============56%             ] optimized_cuda.nsys-rep[1/8] [==================78%       ] optimized_cuda.nsys-rep[1/8] [========================100%] optimized_cuda.nsys-rep[1/8] [========================100%] optimized_cuda.nsys-rep
+[2/8] [0%                          ] optimized_cuda.sqlite[2/8] [1%                          ] optimized_cuda.sqlite[2/8] [2%                          ] optimized_cuda.sqlite[2/8] [3%                          ] optimized_cuda.sqlite[2/8] [4%                          ] optimized_cuda.sqlite[2/8] [5%                          ] optimized_cuda.sqlite[2/8] [6%                          ] optimized_cuda.sqlite[2/8] [7%                          ] optimized_cuda.sqlite[2/8] [8%                          ] optimized_cuda.sqlite[2/8] [9%                          ] optimized_cuda.sqlite[2/8] [10%                         ] optimized_cuda.sqlite[2/8] [11%                         ] optimized_cuda.sqlite[2/8] [12%                         ] optimized_cuda.sqlite[2/8] [13%                         ] optimized_cuda.sqlite[2/8] [14%                         ] optimized_cuda.sqlite[2/8] [=15%                        ] optimized_cuda.sqlite[2/8] [=16%                        ] optimized_cuda.sqlite[2/8] [=17%                        ] optimized_cuda.sqlite[2/8] [==18%                       ] optimized_cuda.sqlite[2/8] [==19%                       ] optimized_cuda.sqlite[2/8] [==20%                       ] optimized_cuda.sqlite[2/8] [==21%                       ] optimized_cuda.sqlite[2/8] [===22%                      ] optimized_cuda.sqlite[2/8] [===23%                      ] optimized_cuda.sqlite[2/8] [===24%                      ] optimized_cuda.sqlite[2/8] [====25%                     ] optimized_cuda.sqlite[2/8] [====26%                     ] optimized_cuda.sqlite[2/8] [====27%                     ] optimized_cuda.sqlite[2/8] [====28%                     ] optimized_cuda.sqlite[2/8] [=====29%                    ] optimized_cuda.sqlite[2/8] [=====30%                    ] optimized_cuda.sqlite[2/8] [=====31%                    ] optimized_cuda.sqlite[2/8] [=====32%                    ] optimized_cuda.sqlite[2/8] [======33%                   ] optimized_cuda.sqlite[2/8] [======34%                   ] optimized_cuda.sqlite[2/8] [======35%                   ] optimized_cuda.sqlite[2/8] [=======36%                  ] optimized_cuda.sqlite[2/8] [=======37%                  ] optimized_cuda.sqlite[2/8] [=======38%                  ] optimized_cuda.sqlite[2/8] [=======39%                  ] optimized_cuda.sqlite[2/8] [========40%                 ] optimized_cuda.sqlite[2/8] [========41%                 ] optimized_cuda.sqlite[2/8] [========42%                 ] optimized_cuda.sqlite[2/8] [=========43%                ] optimized_cuda.sqlite[2/8] [=========44%                ] optimized_cuda.sqlite[2/8] [=========45%                ] optimized_cuda.sqlite[2/8] [=========46%                ] optimized_cuda.sqlite[2/8] [==========47%               ] optimized_cuda.sqlite[2/8] [==========48%               ] optimized_cuda.sqlite[2/8] [==========49%               ] optimized_cuda.sqlite[2/8] [===========50%              ] optimized_cuda.sqlite[2/8] [===========51%              ] optimized_cuda.sqlite[2/8] [===========52%              ] optimized_cuda.sqlite[2/8] [===========53%              ] optimized_cuda.sqlite[2/8] [============54%             ] optimized_cuda.sqlite[2/8] [============55%             ] optimized_cuda.sqlite[2/8] [============56%             ] optimized_cuda.sqlite[2/8] [============57%             ] optimized_cuda.sqlite[2/8] [=============58%            ] optimized_cuda.sqlite[2/8] [=============59%            ] optimized_cuda.sqlite[2/8] [=============60%            ] optimized_cuda.sqlite[2/8] [==============61%           ] optimized_cuda.sqlite[2/8] [==============62%           ] optimized_cuda.sqlite[2/8] [==============63%           ] optimized_cuda.sqlite[2/8] [==============64%           ] optimized_cuda.sqlite[2/8] [===============65%          ] optimized_cuda.sqlite[2/8] [===============66%          ] optimized_cuda.sqlite[2/8] [===============67%          ] optimized_cuda.sqlite[2/8] [================68%         ] optimized_cuda.sqlite[2/8] [================69%         ] optimized_cuda.sqlite[2/8] [================70%         ] optimized_cuda.sqlite[2/8] [================71%         ] optimized_cuda.sqlite[2/8] [=================72%        ] optimized_cuda.sqlite[2/8] [=================73%        ] optimized_cuda.sqlite[2/8] [=================74%        ] optimized_cuda.sqlite[2/8] [==================75%       ] optimized_cuda.sqlite[2/8] [==================76%       ] optimized_cuda.sqlite[2/8] [==================77%       ] optimized_cuda.sqlite[2/8] [==================78%       ] optimized_cuda.sqlite[2/8] [===================79%      ] optimized_cuda.sqlite[2/8] [===================80%      ] optimized_cuda.sqlite[2/8] [===================81%      ] optimized_cuda.sqlite[2/8] [===================82%      ] optimized_cuda.sqlite[2/8] [====================83%     ] optimized_cuda.sqlite[2/8] [====================84%     ] optimized_cuda.sqlite[2/8] [====================85%     ] optimized_cuda.sqlite[2/8] [=====================86%    ] optimized_cuda.sqlite[2/8] [=====================87%    ] optimized_cuda.sqlite[2/8] [=====================88%    ] optimized_cuda.sqlite[2/8] [=====================89%    ] optimized_cuda.sqlite[2/8] [======================90%   ] optimized_cuda.sqlite[2/8] [======================91%   ] optimized_cuda.sqlite[2/8] [======================92%   ] optimized_cuda.sqlite[2/8] [=======================93%  ] optimized_cuda.sqlite[2/8] [=======================94%  ] optimized_cuda.sqlite[2/8] [=======================95%  ] optimized_cuda.sqlite[2/8] [=======================96%  ] optimized_cuda.sqlite[2/8] [========================97% ] optimized_cuda.sqlite[2/8] [========================98% ] optimized_cuda.sqlite[2/8] [========================99% ] optimized_cuda.sqlite[2/8] [========================100%] optimized_cuda.sqlite[2/8] [========================100%] optimized_cuda.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)   Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  --------  -----------  ------------  ----------------------
+     66.7      489,405,214         15  32,627,014.3  23,250,633.0     2,281  187,764,278  49,618,414.8  poll                  
+     32.4      237,825,927        542     438,793.2      16,604.0     1,043   28,425,839   1,565,365.4  ioctl                 
+      0.3        2,113,818         10     211,381.8     142,300.5    47,791    1,033,582     295,482.7  sem_timedwait         
+      0.2        1,595,779         29      55,026.9      11,101.0     8,881    1,055,347     193,046.7  mmap64                
+      0.1        1,084,258         20      54,212.9      15,184.5     2,779      341,998      92,633.3  mmap                  
+      0.1          395,472         47       8,414.3       7,784.0     2,933       21,146       3,319.1  open64                
+      0.0          247,251         27       9,157.4       5,214.0     1,707       32,833       8,282.7  fopen                 
+      0.0          239,533          2     119,766.5     119,766.5   106,871      132,662      18,237.0  pthread_create        
+      0.0          219,624          1     219,624.0     219,624.0   219,624      219,624           0.0  connect               
+      0.0          206,822          1     206,822.0     206,822.0   206,822      206,822           0.0  pthread_cond_wait     
+      0.0          147,925         21       7,044.0       7,244.0     1,065       25,855       5,114.0  fclose                
+      0.0           65,377         11       5,943.4       6,228.0     4,155        8,768       1,289.6  write                 
+      0.0           46,638          2      23,319.0      23,319.0    14,910       31,728      11,892.1  socket                
+      0.0           38,695          1      38,695.0      38,695.0    38,695       38,695           0.0  fgets                 
+      0.0           37,898          6       6,316.3       6,700.5     1,069       11,507       4,782.5  fflush                
+      0.0           37,832          6       6,305.3       6,286.5     1,827       10,168       3,423.9  open                  
+      0.0           33,372          2      16,686.0      16,686.0     8,305       25,067      11,852.5  fread                 
+      0.0           31,915         13       2,455.0       2,414.0     1,180        4,264         887.6  read                  
+      0.0           26,328          9       2,925.3       2,496.0     1,049        7,898       2,160.1  close                 
+      0.0           21,085          3       7,028.3       9,017.0     2,080        9,988       4,312.8  pipe2                 
+      0.0           15,236          3       5,078.7       5,034.0     3,686        6,516       1,415.5  munmap                
+      0.0           14,993          4       3,748.3       2,496.0     1,488        8,513       3,282.9  fwrite                
+      0.0            7,800          1       7,800.0       7,800.0     7,800        7,800           0.0  pthread_cond_broadcast
+      0.0            4,505          1       4,505.0       4,505.0     4,505        4,505           0.0  bind                  
+      0.0            3,542          3       1,180.7       1,107.0     1,093        1,342         139.9  fcntl                 
+      0.0            1,090          1       1,090.0       1,090.0     1,090        1,090           0.0  listen                
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)    Max (ns)     StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  ---------  -----------  -------------  ----------------------
+     96.3      308,871,858          4  77,217,964.5  1,301,286.5      5,240  306,264,045  152,698,613.1  cudaHostAlloc         
+      2.3        7,395,613          2   3,697,806.5  3,697,806.5  1,170,271    6,225,342    3,574,475.0  cudaStreamSynchronize 
+      0.6        2,022,954          3     674,318.0     74,516.0      8,052    1,940,386    1,096,950.5  cudaLaunchKernel      
+      0.4        1,275,989          4     318,997.3    355,353.5      7,698      557,584      228,847.7  cudaFreeHost          
+      0.2          546,155          5     109,231.0    129,208.0      4,331      162,921       63,188.7  cudaFree              
+      0.1          440,358          5      88,071.6     87,865.0      3,271      156,480       56,001.9  cudaMalloc            
+      0.0          101,837          1     101,837.0    101,837.0    101,837      101,837            0.0  cuLibraryLoadData     
+      0.0           69,933          2      34,966.5     34,966.5      3,789       66,144       44,091.6  cudaStreamCreate      
+      0.0           57,352          4      14,338.0     14,489.5      5,010       23,363        8,402.0  cudaMemcpyAsync       
+      0.0           21,998          2      10,999.0     10,999.0      3,997       18,001        9,902.3  cudaStreamDestroy     
+      0.0            1,987          2         993.5        993.5        586        1,401          576.3  cuLibraryGetKernel    
+      0.0            1,342          3         447.3        425.0        240          677          219.4  cuKernelGetName       
+      0.0            1,256          1       1,256.0      1,256.0      1,256        1,256            0.0  cuModuleGetLoadingMode
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)                           Name                          
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  -------------------------------------------------------
+     99.4        6,126,673          1  6,126,673.0  6,126,673.0  6,126,673  6,126,673          0.0  void matrix_mul<int>(const T1 *, const T1 *, T1 *, int)
+      0.6           35,616          2     17,808.0     17,808.0     17,248     18,368        792.0  void stencil_2d<int>(const T1 *, T1 *, int, int)       
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ----------------------------
+     50.4          267,999      2  133,999.5  133,999.5   130,687   137,312      4,684.6  [CUDA memcpy Host-to-Device]
+     49.6          263,263      2  131,631.5  131,631.5   128,992   134,271      3,732.8  [CUDA memcpy Device-to-Host]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+      2.130      2     1.065     1.065     1.065     1.065        0.000  [CUDA memcpy Host-to-Device]
+      2.097      2     1.049     1.049     1.049     1.049        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/eos/home-z/zhaom/tachep/tac-hep-gpus/Project/optimized_cuda.nsys-rep
+	/eos/home-z/zhaom/tachep/tac-hep-gpus/Project/optimized_cuda.sqlite
